@@ -166,11 +166,11 @@
             results.innerHTML = '';
 
             try {
-                const response = await fetch('https://prodeu-connectfasterinc-cloud-fm.emea.snaplogic.io/api/1/rest/feed/ConnectFasterInc/apim/AudioBook/1.0/callCreateAudioBook', {
+                const response = await fetch('https://emea.snaplogic.com/api/1/rest/slsched/feed/ConnectFasterInc/snapLogic4snapLogic/AudioBookCreator/callCreateAudioBook', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
-                        'Authorization': 'Bearer 12abaca16d935629b95fd62360540904'
+                        'Authorization': 'Bearer T3IqTKEBJeEe4MFK9xkNw7JSqJKKoGFx'
                     },
                     body: JSON.stringify({ description, chapters, length })
                 });
